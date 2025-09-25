@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Estudio\\Desktop\\Repositorio\\Parcial - Gestion Academica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3E10B-E9BA-4F5E-84F1-47BBCE842550}|Parcial - Gestion Academica\\Parcial - Gestion Academica.csproj|c:\\users\\estudio\\desktop\\repositorio\\parcial - gestion academica\\parcial - gestion academica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3E10B-E9BA-4F5E-84F1-47BBCE842550}|Parcial - Gestion Academica\\Parcial - Gestion Academica.csproj|solutionrelative:parcial - gestion academica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\Parcial - Gestion Academica\\Parcial - Gestion Academica\\Program.cs",
+              "RelativeDocumentMoniker": "Parcial - Gestion Academica\\Program.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\Parcial - Gestion Academica\\Parcial - Gestion Academica\\Program.cs",
+              "RelativeToolTip": "Parcial - Gestion Academica\\Program.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAPMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T00:15:36.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

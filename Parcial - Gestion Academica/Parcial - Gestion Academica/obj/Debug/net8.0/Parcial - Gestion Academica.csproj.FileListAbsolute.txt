@@ -1,0 +1,15 @@
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\bin\Debug\net8.0\Parcial - Gestion Academica.exe
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\bin\Debug\net8.0\Parcial - Gestion Academica.deps.json
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\bin\Debug\net8.0\Parcial - Gestion Academica.runtimeconfig.json
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\bin\Debug\net8.0\Parcial - Gestion Academica.dll
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\bin\Debug\net8.0\Parcial - Gestion Academica.pdb
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.AssemblyInfoInputs.cache
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.AssemblyInfo.cs
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.csproj.CoreCompileInputs.cache
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.sourcelink.json
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.dll
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\refint\Parcial - Gestion Academica.dll
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.pdb
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\Parcial - Gestion Academica.genruntimeconfig.cache
+C:\Users\Estudio\Desktop\Repositorio\Parcial - Gestion Academica\Parcial - Gestion Academica\obj\Debug\net8.0\ref\Parcial - Gestion Academica.dll
