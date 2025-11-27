@@ -1,0 +1,53 @@
+﻿@model MvcLibrary.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Agregar Libro</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" placeholder="Ingrese el título del libro" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Author" class="control-label"></label>
+                <input asp-for="Author" class="form-control" placeholder="Ingrese el autor del libro" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PublicationDate" class="control-label"></label>
+                <input asp-for="PublicationDate" class="form-control" />
+                <span asp-validation-for="PublicationDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3 form-check">
+                <input asp-for="Available" class="form-check-input" checked />
+                <label asp-for="Available" class="form-check-label"></label>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Imagen de Portada</label>
+                <input type="file" name="thumbnail" class="form-control" accept="image/*" />
+                <small class="form-text text-muted">Suba una imagen de portada</small>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Crear</button>
+                <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

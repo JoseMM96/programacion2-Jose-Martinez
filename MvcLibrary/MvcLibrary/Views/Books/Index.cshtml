@@ -1,0 +1,94 @@
+﻿@model IEnumerable<MvcLibrary.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Inventario de libros</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Agregar Nuevo Libro</a>
+</p>
+
+<form asp-controller="Books" asp-action="Index">
+    <p>
+        <label>Title: <input type="text" name="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Portada</th>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Author)</th>
+            <th>@Html.DisplayNameFor(model => model.PublicationDate)</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.Thumbnail))
+                    {
+                        <img src="@item.Thumbnail" alt="Portada" class="img-thumbnail" style="width: 60px; height: 80px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <div class="bg-light text-center rounded" style="width: 60px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                            <span class="text-muted small">Sin imagen</span>
+                        </div>
+                    }
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.Author)</td>
+                <td>@Html.DisplayFor(modelItem => item.PublicationDate)</td>
+                <td>
+                    @if (item.Available)
+                    {
+                        <span class="badge bg-success">Disponible</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">No disponible</span>
+                    }
+                </td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a>
+                        <form asp-action="ToggleAvailability" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            @if (item.Available)
+                            {
+                                <button type="submit" class="btn btn-secondary btn-sm"
+                                        onclick="return confirm('¿Estás seguro de que quieres marcar este libro como no disponible?')">
+                                    Marcar No Disponible
+                                </button>
+                            }
+                            else
+                            {
+                                <button type="submit" class="btn btn-success btn-sm"
+                                        onclick="return confirm('¿Estás seguro de que quieres marcar este libro como disponible?')">
+                                    Marcar Disponible
+                                </button>
+                            }
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

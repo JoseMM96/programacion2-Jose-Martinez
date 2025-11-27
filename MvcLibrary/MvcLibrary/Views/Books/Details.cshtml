@@ -1,0 +1,73 @@
+﻿@model MvcLibrary.Models.Book
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Book</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            @if (!string.IsNullOrEmpty(Model.Thumbnail))
+            {
+                <img src="@Model.Thumbnail" alt="Portada" class="img-fluid rounded shadow" />
+            }
+            else
+            {
+                <div class="bg-light text-center p-5 rounded">
+                    <span class="text-muted">Sin imagen de portada</span>
+                </div>
+            }
+        </div>
+        <div class="col-md-8">
+            <dl class="row">
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Title)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Author)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Author)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.PublicationDate)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.PublicationDate)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Available)</dt>
+                <dd class="col-sm-9">
+                    @if (Model.Available)
+                    {
+                        <span class="badge bg-success">Disponible</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">No disponible</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+
+    <form asp-action="ToggleAvailability" method="post" class="d-inline">
+        <input type="hidden" name="id" value="@Model.Id" />
+        @if (Model.Available)
+        {
+            <button type="submit" class="btn btn-secondary"
+                    onclick="return confirm('¿Estás seguro de que quieres marcar este libro como no disponible?')">
+                Marcar No Disponible
+            </button>
+        }
+        else
+        {
+            <button type="submit" class="btn btn-success"
+                    onclick="return confirm('¿Estás seguro de que quieres marcar este libro como disponible?')">
+                Marcar Disponible
+            </button>
+        }
+    </form>
+
+    <a asp-action="Index" class="btn btn-outline-secondary">Volver a la Lista</a>
+</div>

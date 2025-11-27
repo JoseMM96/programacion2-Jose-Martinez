@@ -1,0 +1,66 @@
+﻿@model MvcLibrary.Models.Book
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Book</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Author" class="control-label"></label>
+                <input asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PublicationDate" class="control-label"></label>
+                <input asp-for="PublicationDate" class="form-control" />
+                <span asp-validation-for="PublicationDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3 form-check">
+                <input asp-for="Available" class="form-check-input" />
+                <label asp-for="Available" class="form-check-label"></label>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Imagen de Portada Actual</label>
+                <div>
+                    @if (!string.IsNullOrEmpty(Model.Thumbnail))
+                    {
+                        <img src="@Model.Thumbnail" alt="Portada actual" class="img-thumbnail mb-2" style="max-width: 100px; max-height: 150px;" />
+                        <br />
+                    }
+                    <label class="control-label">Cambiar Imagen:</label>
+                    <input type="file" name="thumbnail" class="form-control" accept="image/*" />
+                    <small class="form-text text-muted">Deja vacío para mantener la imagen actual</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

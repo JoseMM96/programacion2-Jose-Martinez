@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\data\\mvclibrarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\data\\mvclibrarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|c:\\users\\estudio\\desktop\\repositorio\\mvclibrary\\mvclibrary\\migrations\\20251126021233_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AD6F45-DA96-49B6-B013-9D81BAE537DF}|MvcLibrary\\MvcLibrary.csproj|solutionrelative:mvclibrary\\migrations\\20251126021233_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Controllers\\HelloWorldController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MvcLibrary\\Controllers\\HelloWorldController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T22:03:21.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "MvcLibrary\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:10:51.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Models\\Book.cs",
+              "RelativeToolTip": "MvcLibrary\\Models\\Book.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:58:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T01:40:24.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "MvcLibrary\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAuwLoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:11:21.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T01:37:14.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T22:07:17.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T22:03:52.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MvcLibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Data\\MvcLibraryContext.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Data\\MvcLibraryContext.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Data\\MvcLibraryContext.cs",
+              "RelativeToolTip": "MvcLibrary\\Data\\MvcLibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:13:16.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Program.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Program.cs",
+              "RelativeToolTip": "MvcLibrary\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:33:45.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T22:41:02.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T02:16:31.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\appsettings.json",
+              "RelativeDocumentMoniker": "MvcLibrary\\appsettings.json",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\appsettings.json",
+              "RelativeToolTip": "MvcLibrary\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-26T02:14:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20251126021233_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Migrations\\20251126021233_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Migrations\\20251126021233_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Migrations\\20251126021233_InitialCreate.cs",
+              "RelativeToolTip": "MvcLibrary\\Migrations\\20251126021233_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:12:33.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HelloWorldController.cs",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Controllers\\HelloWorldController.cs",
+              "RelativeDocumentMoniker": "MvcLibrary\\Controllers\\HelloWorldController.cs",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Controllers\\HelloWorldController.cs",
+              "RelativeToolTip": "MvcLibrary\\Controllers\\HelloWorldController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:33:07.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MvcLibrary\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Estudio\\Desktop\\Repositorio\\MvcLibrary\\MvcLibrary\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MvcLibrary\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T01:46:02.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
